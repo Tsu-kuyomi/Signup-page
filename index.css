@@ -1,0 +1,152 @@
+*{
+    font-family: book antiqua;
+}
+
+body {
+    margin: 0;
+    background-color: #22231B;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundasset{
+    position: relative;
+}
+
+.T1{
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 87.5vw solid transparent;
+    border-bottom: 0px solid transparent;
+    border-top: 177.5vh solid #f8f8f8;
+}
+
+.formtable{
+    width: 30%;
+    height: 80%;
+    border-radius: 4px;
+    line-height: 10px;
+    z-index: 9;
+    position: absolute;
+    background-color: #ffffff;
+    top: 10%;
+    left: 41%;
+    padding: 30px 0px 5px 180px;
+
+}
+
+h1{
+    padding: 30px 0px 5px 0px;
+    color: #060606;
+}
+
+.inputname{
+    padding: 3px 0px 5px 0px; 
+    color: #06060695;
+    font-weight: 600;
+    font-family: campton;
+    line-height: 10px;
+    margin-top: 4px;
+}
+
+.btn{
+    padding: 10px 15px; 
+    background-color: #060606;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: campton;
+    width: 30%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+input{
+    border: 2px solid #06060630;
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+}
+
+.newsletter{
+    width: 30%;
+    height: 45vh;
+    border-radius: 4px;
+    line-height: 10px;
+    z-index: 9;
+    position: absolute;
+    background-color: #22231B;
+    top: 30%;
+    left: 18%;
+}
+
+h2{
+    padding: 30px 0px 5px 90px;
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+.news{
+    color: #ffffff;
+    padding: 10px 50px 5px 90px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-family: campton;
+    font-weight: 300;
+}
+
+.touch{
+    color: #ffffff;
+    padding: 10px 50px 5px 90px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: campton;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 10px 50px 5px 90px;
+}
+
+.imgs > img{
+    width: 40%;
+}
+
+input {
+    font-weight: 500;
+    font-family: campton;
+    color: #060606;
+    padding-left: 10px;
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+.valid{
+    border: 2px solid green !important;
+}
+
+.errortext {
+    font-weight: 400;
+    font-family: campton;
+    color: #ec1111;
+    font-size: 1rem;
+    line-height: 15px;
+
+}
+
+.ses{
+    padding: 8px 5px 5px 15px; 
+    margin: 0;
+}
