@@ -17,22 +17,38 @@
             <form>
                 
                 <p class="inputname">Name</p>
+                <div class="test Ntest">
                 <input class="text text1" type="text" placeholder="Enter Full Name" id="name">
-                <p class="s1 ses"></p>
+                </div>
+            <p class="s1 ses"></p>
 
                 <p class="inputname">Email</p>
+                <div class="test Etest">
                 <input type="text" placeholder="Enter Email" id="email">
-                <p class="s2 ses"></p>
+                </div>
+            <p class="s2 ses"></p>
 
                 <p class="inputname">Password</p>
+                <div class="test Ptest">
                 <input type="password" placeholder="Enter Password" id="password">
+                <button type="button" class="show_password_eye" id="password_checker" onclick="ShowOrHidePassword()">
+                <img class="eye" src="/Icons/mycollection/png/eye-svgrepo-com.png" alt="eye">
+                </button>
+                </div>
                 <p class="s3 ses"></p>
 
-                <p class="inputname">Confirm Password</p>
-                <input type="password" placeholder="Confirm Password" id="Cpassword">
-                <p class="s4 ses"></p>
 
-                <button class="btn" type="submit">Summit</button>
+                <p class="inputname">Confirm Password</p>
+                <div class="test CPtest">
+                <input type="password" placeholder="Confirm Password" id="Cpassword">
+                <button type="button" class="show_password_eye" id="password_checker" onclick="ShowOrHideConfirmPassword()">
+                    <img class="eye" src="/Icons/mycollection/png/eye-svgrepo-com.png" alt="eye">
+                    </button>
+                    </div>
+            <p class="s4 ses"></p>
+
+
+                <button class="btn" type="submit">Submit</button>
 
             </form>
         </div>
