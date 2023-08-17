@@ -91,6 +91,7 @@ h2{
     padding: 30px 0px 5px 90px;
     color: #ffffff;
     font-size: 2rem;
+    margin: 10px 0px 10px 0px;
 
 }
 
@@ -149,4 +150,163 @@ input {
 .ses{
     padding: 8px 5px 5px 15px; 
     margin: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    .formtable{
+        padding: 15px 0px 5px 140px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 5px 0px;
+        color: #060606;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 10px 50px 5px 90px;
+    }
+    
+    .imgs > img{
+        width: 40%;
+    }
+
+    .news{
+        padding: 10px 50px 5px 50px;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        padding: 30px 0px 5px 50px;
+        font-size: 2rem;
+        margin: 0;
+    
+    }
+
+    .touch{
+        padding: 10px 50px 2px 50px;
+        font-size: 1rem;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 2px 50px;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .formtable{
+        padding: 15px 0px 5px 120px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 5px 0px;
+        color: #060606;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 5px 90px;
+    }
+    
+    .imgs > img{
+        width: 40%;
+    }
+
+    .news{
+        padding: 5px 50px 5px 50px;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        padding: 30px 0px 5px 50px;
+        font-size: 2rem;
+        margin: 0;    
+    }
+
+    .touch{
+        padding: 10px 50px 2px 50px;
+        font-size: 1rem;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 2px 50px;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .formtable{
+        width: 50%;
+        height: 80%;
+        top: 10%;
+        left: 25%;
+        padding: 30px 0px 5px 30px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 30px 0px;
+        color: #060606;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+
+    .newsletter{
+        display: none;
+    }
+
+    .T1{
+        border-left: 0px solid transparent;
+        border-right: 85vw solid transparent;
+        border-bottom: 0px solid transparent;
+        border-top: 135vh solid #f8f8f8;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .formtable{
+        width: 80%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+        padding: 30px 0px 5px 30px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 30px 0px;
+        color: #060606;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+
+    .newsletter{
+        display: none;
+    }
+
+    .T1{
+        border-left: 0px solid transparent;
+        border-right: 105vw solid transparent;
+        border-bottom: 0px solid transparent;
+        border-top: 100vh solid #f8f8f8;
+    }
 }

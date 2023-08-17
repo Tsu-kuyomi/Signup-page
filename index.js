@@ -32,17 +32,19 @@ Name.addEventListener('change',(e)=>{
 
 Email.addEventListener('change',(e)=>{
     const val = Email.value
+    const validation_expression = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     const length = val.length
 
-    if(length < 3){
+    if(length >= 3 && val.match(validation_expression)){
         // Apply error style
+        Email.classList.add("valid"); 
+        s2.innerText = '';
+
+    }else{
+
         Email.classList.add("error");
         s2.innerText = 'Please enter a valid email.';
         s2.classList.add('errortext');
-    
-    }else{
-        Email.classList.add("valid"); 
-        s2.innerText = '';
         }
 })
 
@@ -74,5 +76,7 @@ CPassword.addEventListener('change', (e)=>{
     }else{
         s4.innerText = 'Password is not the same.';
         s4.classList.add('errortext');
+        CPassword.classList.add("error");
+
         }
 })
