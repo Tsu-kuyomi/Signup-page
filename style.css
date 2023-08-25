@@ -151,12 +151,21 @@ input {
     padding-left: 10px;
 }
 
-.error{
+/* .error{
     border: 2px solid red !important;
 }
 
 .valid{
     border: 2px solid green !important;
+} */
+
+h3{
+    font-family: campton;
+}
+
+b{
+    font-family: campton;
+    font-weight: 600;
 }
 
 .errortext {
@@ -172,6 +181,51 @@ input {
     padding: 8px 5px 5px 15px; 
     margin: 0;
 }
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #ffffff;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+    font-family: campton;  
+ 
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-family: campton;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+    border: none;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+    border: none;
+
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
 
 @media only screen and (max-width: 1280px) {
     .formtable{
